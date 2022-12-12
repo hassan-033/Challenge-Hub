@@ -1,0 +1,65 @@
+@media only screen and (min-width: 375px) and (max-width: 1440px) {
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: hsl(212, 45%, 89%)
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+    
+}
+
+.page-wrapper > .page-content {
+    border-radius: 10px;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    justify-content: center;
+    width: 350px;
+    height: 500px;
+    padding: 15px;
+}
+
+.page-wrapper > .page-content > .qr-code-banner  {
+    height: 250px;
+    width: auto;
+    border-radius: 10px;
+
+    
+}
+
+.page-wrapper > .page-content > .qr-code-banner > img {
+    width: 100%;
+    height: 300px;
+    border-radius: inherit;
+    
+}
+
+.page-wrapper > .page-content > .text {
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.page-wrapper > .page-content > .text > p {
+    font-size: 15px;
+}
+
+.page-wrapper > .page-content > .text > p > a {
+    font-size: 11px;
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    text-align: center;
+}
+}
+
+
+
+
+
+
